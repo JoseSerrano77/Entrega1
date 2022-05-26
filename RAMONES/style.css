@@ -1,0 +1,104 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    transition: all 300ms;
+}
+h1{
+    font-size: 70px;
+    color: hsl(20, 37%, 97%);
+    transition: all 300ms;
+    
+}
+h1:hover{
+    transform: scale(1.15);
+}
+
+h2{
+    font-size: 50px;
+    color: hsl(20, 37%, 97%);
+    transition: all 300ms;
+    
+}
+
+
+p{
+    font-size: 20px;
+    color: hsl(20, 37%, 97%)
+    
+}
+
+#alinear-centro{
+    
+    font-size: 35px;
+
+    text-align: center;
+   
+    top: 0;
+
+}
+#alinear-izquierda{
+    
+    font-size: 35px;
+
+    text-align: left;
+    top: 0;
+
+}
+
+#discografia{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 60%;
+    margin: 15%;
+    grid-gap: 30px;
+    margin-left :auto; 
+    margin-right:auto;
+ 
+}
+
+#discografia img{
+    width: 100%;
+    transition: all 300ms;
+    position:static; 
+}
+
+#discografia img:hover{
+    transform: scale(1.15);
+}
+
+#fotografia2{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 70%;
+    margin: 25%;
+    grid-gap: 30px;
+    margin-left :auto; 
+    margin-right:auto;
+ 
+}
+
+#fotografia2 img{
+    width: 100%;
+    transition: all 300ms;
+    position:static; 
+}
+
+#fotografia2 img:hover{
+    transform: scale(1.15);
+}
+
+
+#logo{
+    width: 50%;
+    height:50%
+}
+
+#hover img:hover{
+    transform: scale(1.15);
+    transition: all 300ms;
+}
